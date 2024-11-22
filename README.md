@@ -8,5 +8,5 @@ This project provides a way of integrity checking the .text section of executabl
 * Tested on x64 architecture.
 
 ## Video Demonstration
-![showcase](https://github.com/ntos322/copy-on-write/blob/master/showcase.gif)
+![showcase](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDhkaTd4MzFoejRiMzNrZjRudDVyMTl5NTliMHF4azN3b2ttOHNwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2vNxelElLUdE5ZjapR/giphy.gif)
 
