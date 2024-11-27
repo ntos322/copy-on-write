@@ -36,7 +36,7 @@ auto cow::get_module_section(std::string name, std::uintptr_t image_base) -> std
 
 }
 
-auto cow::is_page_private(std::uintptr_t section_range_start, std::uintptr_t section_range_end) -> cow_result {
+auto cow::is_section_private(std::uintptr_t section_range_start, std::uintptr_t section_range_end) -> cow_result {
 
     for (std::uintptr_t page = section_range_start; page < section_range_end; page += 0x1000) {
 
