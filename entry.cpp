@@ -20,7 +20,7 @@ int main()
                 /* get the text section of the image */
                 auto [section_start, section_end] = g_cow.get_module_section(".text", image);
 
-                auto result = g_cow.is_page_private(section_start, section_end);
+                auto result = g_cow.is_section_private(section_start, section_end);
                 if (result.patched)
                     std::printf("page at 0x%lX in 0x%lX is private, which means the .text section has been patched/written to\n", result.page, image);
                 
