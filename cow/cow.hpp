@@ -21,7 +21,7 @@ public:
 public:
 
 	auto get_module_section(std::string name, std::uintptr_t image_base) -> std::pair<std::uintptr_t, std::uintptr_t>;
-	auto is_page_private(std::uintptr_t section_range_start, std::uintptr_t section_range_end) -> cow_result;
+	auto is_section_private(std::uintptr_t section_range_start, std::uintptr_t section_range_end) -> cow_result;
 
 };
 
